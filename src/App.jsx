@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
-import AllTechnologies from "./components/AllTechnologies"; // for /techstack
+import AllTechnologies from "./components/AllTechnologies";
 
 const App = () => {
   return (
