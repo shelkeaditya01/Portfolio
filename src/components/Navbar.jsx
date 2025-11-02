@@ -29,7 +29,7 @@ const Navbar = () => {
             width={64}
             height={64}
           />
-          <p className="text-white text-[17px] font-semibold ml-6 cursor-pointer">
+          <p className="text-white text-[17px] font-semibold cursor-pointer">
             <span className="sm:block  font-bold">Aditya</span>| Shelke
           </p>
         </Link>
