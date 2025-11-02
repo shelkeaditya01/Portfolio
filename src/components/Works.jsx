@@ -39,6 +39,7 @@ const ProjectCard = ({
           />
 
           <div className="absolute  inset-0 flex justify-end mt-3 card-img_hover">
+            
             <div
               onClick={() => {
                 window.open(source_code_link, "_blank");
@@ -79,6 +80,7 @@ const Works = () => {
         <p className={styles.sectionSubText}>Things I’ve Built </p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
+      
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
@@ -90,6 +92,7 @@ const Works = () => {
           experience in building scalable and maintainable web applications.
         </motion.p>
       </div>
+
       <div className=" mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index} />
